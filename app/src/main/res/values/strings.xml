@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="buscaEstado">Infos Estados do Brasil</string>
+    <string name="buscaPaises">Infos de Todos os Paises</string>
+    <string name="buscaBrasil">Infos Brasil</string>
+
+    <string name="hint_uf">UF: </string>
+    <string name="hint_estado">Estado: </string>
+    <string name="hint_casos">Casos: </string>
+    <string name="hint_mortes">Mortes: </string>
+    <string name="hint_suspeitos">Suspeitos: </string>
+    <string name="hint_data">Data: </string>
+
+    <string name="hint_paises_pais">País: </string>
+    <string name="hint_paises_casos">Casos: </string>
+    <string name="hint_paises_confirmados">Confirmados: </string>
+    <string name="hint_paises_mortes">Mortes: </string>
+    <string name="hint_paises_recuperados">Recuperados: </string>
+    <string name="hint_paises_atualizacao">Atualização: </string>
+
+    <string name="texto">Clique nos botões acima e fique por dentro dos últimos dados, podendo visualizar os estados, paises ou apenas do Brasil.</string>
+
+</resources>

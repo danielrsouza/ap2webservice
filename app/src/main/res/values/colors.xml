@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#302E2E</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="fundoMain">#302E2E</color>
+    <color name="buttons">#F44336</color>
+    <color name="colorTextoButtons">#000000</color>
+
+    <color name="hint_layouts">#FFFFFF</color>
+
+    <color name="corFundoMain">#252424</color>
+    <color name="corItemDaLista">#FFFFFF</color>
+    <color name="corBordaDosItensMain">#AC0000</color>
+    <color name="color_data_dados_gerais">#FFEB3B</color>
+    <color name="textColorElementos">#AC0000</color>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hint_layouts"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/hint_layouts"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+
+        <Button
+            android:id="@+id/button_buscaEstado"
+            android:layout_width="133dp"
+            android:layout_height="109dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/estados"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/colorTextoButtons"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_buscaPaises"
+            android:layout_width="128dp"
+            android:layout_height="109dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/paises"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/colorTextoButtons"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_buscaBrasil"
+            android:layout_width="143dp"
+            android:layout_height="110dp"
+            android:background="@drawable/brasil"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/colorTextoButtons"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/hint_layouts"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="match_parent"
+            android:background="@color/corFundoMain"
+            android:hint="@string/buscaEstado"
+            android:textAlignment="center"
+            android:textColorHint="@color/hint_layouts"
+            android:textSize="15dp"
+            android:layout_marginRight="4dp"/>
+
+        <TextView
+            android:layout_width="127dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="4dp"
+            android:background="@color/corFundoMain"
+            android:hint="@string/buscaPaises"
+            android:textAlignment="center"
+            android:textColorHint="@color/hint_layouts"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="143dp"
+            android:layout_height="match_parent"
+            android:background="@color/corFundoMain"
+            android:hint="@string/buscaBrasil"
+            android:textAlignment="center"
+            android:textColorHint="@color/hint_layouts"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/covid"
+       android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/texto"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textColorHint="@color/hint_layouts"
+        android:background="@color/corFundoMain"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:padding="28dp"
+         />
+
+
+</LinearLayout>
+
+
